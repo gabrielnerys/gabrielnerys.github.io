@@ -1,9 +1,13 @@
-body {
+body{
     background-color: #1A1C1B;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#perfil {
+h1{
+    color: white;
+    text-decoration: none;
+}
+#perfil{
     border-radius: 50%;
 }
 .nome{
