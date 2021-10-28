@@ -1,0 +1,8 @@
+body {
+    background-color: #1A1C1B;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#perfil {
+    border-radius: 50%;
+}    
