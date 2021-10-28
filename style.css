@@ -3,14 +3,6 @@ body{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h1{
-    color: white;
-    text-decoration: none;
-}
 #perfil{
     border-radius: 50%;
 }
-.nome{
-    text-decoration: none;
-    color: white;
-}    
