@@ -5,4 +5,8 @@ body {
 }
 #perfil {
     border-radius: 50%;
+}
+#nome{
+    text-decoration: none;
+    color: white;
 }    
