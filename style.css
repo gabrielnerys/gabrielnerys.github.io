@@ -1,11 +1,27 @@
+*body{
+    margin: 0;
+}
+
+#indice{
+    position: absolute;
+    left: 1100px;
+}
+
 body{
     background-color: #1A1C1B;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#nome-foto{
+    position: absolute;
+    text-align: center;
+}
+
 #perfil{
     border-radius: 50%;
 }
+
 .icons{
     background-color: white;
     border-radius: 9px;
