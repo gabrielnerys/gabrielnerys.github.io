@@ -16,6 +16,12 @@ body{
 #nome-foto{
     position: absolute;
     text-align: center;
+    padding: 10px 20px;
+}
+
+#corpo{
+    position: absolute;
+    padding: 200px 20px;
 }
 
 #perfil{
