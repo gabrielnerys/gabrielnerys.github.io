@@ -23,6 +23,16 @@ h5{
     
 }
 
+#comp{
+    color: white;
+    position: absolute;
+    padding: 20px 400px;
+}
+
+#comp img{
+    width: 80px;
+}
+
 .icon1{
     position: absolute;
     background-color: white;
@@ -102,7 +112,7 @@ h5{
     width: 300px;
     height: 630px;
     border-radius: 30px;
-    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    background-color: rgb(8, 8, 8);
     opacity: 0.8;
     z-index: -1
 }
@@ -114,7 +124,7 @@ h5{
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    background-color: rgb(8, 8, 8);
     opacity: 0.8;
     z-index: -1
 }
@@ -126,7 +136,7 @@ h5{
     width: 560px;
     height: 300px;
     border-radius: 30px;
-    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    background-color: rgb(8, 8, 8);
     opacity: 0.8;
     z-index: -1
 }
@@ -138,7 +148,7 @@ h5{
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    background-color: rgb(8, 8, 8);
     opacity: 0.8;
     z-index: -1
 }
@@ -150,7 +160,7 @@ h5{
     width: 560px;
     height: 300px;
     border-radius: 30px;
-    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    background-color: rgb(8, 8, 8);
     opacity: 0.8;
     z-index: -1
 }
@@ -159,20 +169,20 @@ h5{
     position: absolute;
     left: 30px;
     top: 30px;
-    width: 305px;
-    height: 635px;
+    width: 300px;
+    height: 630px;
     border-radius: 30px;
     background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
     opacity: 0.8;
     z-index: -1
 }
 
-#box7{
+/*#box7{
     position: absolute;
     left: 360px;
     top: 360px;
-    width: 305px;
-    height: 305px;
+    width: 300px;
+    height: 300px;
     border-radius: 30px;
     background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
     opacity: 0.8;
@@ -183,8 +193,8 @@ h5{
     position: absolute;
     left: 360px;
     top: 30px;
-    width: 565px;
-    height: 305px;
+    width: 560px;
+    height: 300px;
     border-radius: 30px;
     background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
     opacity: 0.8;
@@ -195,8 +205,8 @@ h5{
     position: absolute;
     left: 950px;
     top: 30px;
-    width: 305px;
-    height: 305px;
+    width: 300px;
+    height: 300px;
     border-radius: 30px;
     background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
     opacity: 0.8;
@@ -207,8 +217,8 @@ h5{
     position: absolute;
     left: 690px;
     top: 360px;
-    width: 565px;
-    height: 305px;
+    width: 560px;
+    height: 300px;
     border-radius: 30px;
     background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
     opacity: 0.8;
