@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*#background{
+    position: absolute;
+    background-size: 100%;
+    background-image: url(https://wallpaperaccess.com/full/6297683.jpg);
+    z-index: 0;
+}*/
+
+h5{
+    position: absolute;
+    color: white;
+    top: 530px;
+    left: 60px;
+    z-index: 2;
+    
+}
+
+.icon1{
+    position: absolute;
+    background-color: white;
+    top: 580px;
+    left: 60px;
+    border-radius: 9px;
+    padding: 2px;
+    z-index: 2;
+}
+
+.icon2{
+    position: absolute;
+    background-color: white;
+    top: 580px;
+    left: 100px;
+    border-radius: 9px;
+    padding: 2px;
+    z-index: 2;
+}
+
+.icon3{
+    position: absolute;
+    background-color: white;
+    top: 580px;
+    left: 140px;
+    border-radius: 9px;
+    padding: 2px;
+    z-index: 3;
+}
+
+.perfil .elementos img{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    border-radius: 50%;
+    width: 180px;
+    z-index: 2;
+} 
+
+.elementos h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    z-index: 2;
+}
+
+.elementos H3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    z-index: 2;
+}
+
+.elementos p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    z-index: 2;
+}
+
+#limitar{
+    left: 50p;
+    padding-right: 77%;
+    text-align:justify ;
+}
+
+#box1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box2{
+    position: absolute;
+    left: 360px;
+    top: 360px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box3{
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    width: 560px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box4{
+    position: absolute;
+    left: 950px;
+    top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box5{
+    position: absolute;
+    left: 690px;
+    top: 360px;
+    width: 560px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box6{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 305px;
+    height: 635px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box7{
+    position: absolute;
+    left: 360px;
+    top: 360px;
+    width: 305px;
+    height: 305px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box8{
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    width: 565px;
+    height: 305px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+#box9{
+    position: absolute;
+    left: 950px;
+    top: 30px;
+    width: 305px;
+    height: 305px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1;
+}
+
+#box10{
+    position: absolute;
+    left: 690px;
+    top: 360px;
+    width: 565px;
+    height: 305px;
+    border-radius: 30px;
+    background-image: linear-gradient(150deg, rgb(29, 29, 29), rgba(12, 12, 12, 0.658), rgb(7, 7, 7));
+    opacity: 0.8;
+    z-index: -1
+}
+
+/* cor substituta para box background-image: linear-gradient(150deg, rgb(141, 200, 255), rgba(78, 113, 179, 0.623), rgb(46, 107, 221));*/
+
