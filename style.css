@@ -1,10 +1,13 @@
-*body{
+body {
     margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-#indice{
-    position: absolute;
-    left: 970px;
+li{
+    list-style: none;
 }
 
 body{
@@ -13,15 +16,47 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#nome-foto{
+#comp{
+    color: black;
     position: absolute;
-    text-align: left;
+    padding: 20px 400px;
+}
+
+#comp img{
+    width: 80px;
+}
+
+#limitar{
+    padding-right: 77%;
+    text-align:justify ;
+}
+
+#indice{
+    position: absolute;
+    left: 970px;
+}
+
+#indice h5{
+    color: black;
+}
+
+#background{
+    background-image: url(./imagens/gray.jpg);
+    background-size: 100%;
+}
+
+#nome-foto{
+    top: 30px;
+    left: 105px;
+    position: absolute;
+    text-align: center;
     padding: 20px 20px;
 }
 
 #corpo{
+    left: 45px;
     position: absolute;
-    padding: 220px 20px;
+    padding: 250px 20px;
 }
 
 #perfil{
@@ -32,4 +67,15 @@ body{
     background-color: white;
     border-radius: 9px;
     padding: 2px;
+}
+
+
+.box-cont{
+    position: absolute;
+    left: 45px;
+    opacity: 0.9;
+    border: 10px solid black;
+    width: 300px;
+    height: 700px;
+    background-color: black;
 }
