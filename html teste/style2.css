@@ -1,0 +1,86 @@
+body, html{
+    margin: 0;
+    border: 0;
+    border-spacing: 0;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10vh 85vh 5vh;
+    grid-template-areas:"h h" 
+                        "m a"
+                        "f f"
+}
+
+div {
+    display: block;
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex > div{
+    flex: 1 1 200px;
+}
+
+main section{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+header h1{
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+
+li {
+    margin-left: 10px;
+
+}
+
+header{
+    position: fixed;
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    grid-area: h;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: yellow;
+    grid-area: m;
+}
+
+aside{
+    background-color: red;
+    grid-area: a;
+}
+
+footer{
+    background-color: green;
+    grid-area: f;
+    z-index: 1;
+}
+
