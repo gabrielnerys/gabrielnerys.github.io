@@ -101,3 +101,23 @@ section{
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 500px) {
+    
+.paragraph :first-child{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+.paragraph :nth-child(2){
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    margin-top: 70px;
+}
+
+}
