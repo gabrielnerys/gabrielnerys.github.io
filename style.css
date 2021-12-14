@@ -20,6 +20,10 @@ section{
     justify-content: center;
 }
 
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container-one{
     display: flex;
     flex-direction: column;
